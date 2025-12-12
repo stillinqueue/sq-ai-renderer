@@ -12,7 +12,8 @@ INSTALLED_APPS = [
     "django.contrib.contenttypes",
     "django.contrib.staticfiles",
     "rest_framework",
-    "plans",
+    ""plans.apps.PlansConfig",
+",
 ]
 
 MIDDLEWARE = [
